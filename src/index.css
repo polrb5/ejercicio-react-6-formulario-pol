@@ -7,6 +7,7 @@ body {
     rgba(255, 197, 47, 0.7679446778711485) 21%,
     rgba(191, 175, 76, 1) 100%
   );
+  font-family: "Poppins";
 }
 .formulario {
   min-height: 100vh;
@@ -17,4 +18,14 @@ label {
 }
 small {
   font-size: 12px;
+}
+.btn {
+  margin-top: 20px;
+  border: 1px solid #fff;
+  transition: all 300ms;
+}
+
+.btn:hover {
+  color: rgb(134, 122, 44);
+  background-color: rgb(247, 243, 243);
 }

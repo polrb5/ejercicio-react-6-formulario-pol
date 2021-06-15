@@ -6,11 +6,9 @@ function App() {
   return (
     <div className="container ">
       <div className="formulario row justify-content-center align-items-center">
-        <form className="col-6">
-          <DatosPersonales />
-          <DatosAcceso />
-          <Login />
-        </form>
+        <DatosPersonales />
+        <DatosAcceso />
+        <Login />
       </div>
     </div>
   );
