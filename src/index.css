@@ -11,7 +11,10 @@ body {
 .formulario {
   min-height: 100vh;
 }
-input {
-  width: 150px;
-  margin-bottom: 20px;
+
+label {
+  margin-top: 20px;
+}
+small {
+  font-size: 12px;
 }
