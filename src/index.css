@@ -1,9 +1,9 @@
 body {
   margin: 0;
-  background: rgb(164, 114, 19);
+  background: rgb(209, 142, 15);
   background: linear-gradient(
     0deg,
-    rgba(164, 114, 19, 1) 0%,
+    rgba(209, 142, 15, 1) 0%,
     rgba(255, 197, 47, 0.7679446778711485) 21%,
     rgba(191, 175, 76, 1) 100%
   );
@@ -11,6 +11,9 @@ body {
 }
 .formulario {
   min-height: 100vh;
+}
+h2 {
+  border-bottom: 1px solid rgb(247, 243, 243);
 }
 
 label {
@@ -27,5 +30,5 @@ small {
 
 .btn:hover {
   color: rgb(134, 122, 44);
-  background-color: rgb(247, 243, 243);
+  background-color: rgba(252, 248, 248, 0.336);
 }

@@ -1,8 +1,11 @@
-export const DatosPersonales = () => {
+import { useHistory } from "react-router";
+
+const DatosPersonales = () => {
+  const history = useHistory();
   return (
     <>
       <form className="col-7">
-        <h2 className="text-center my-5">Personal Information</h2>
+        <h2 className="text-center py-3">Personal Information</h2>
         <div className="row justify-content-center">
           <div className="col-8">
             <label htmlFor="name">First name</label>
@@ -45,11 +48,17 @@ export const DatosPersonales = () => {
               required
             />
           </div>
-          <div className="col-8 text-right">
-            <button className="btn btn-contiune">CONTINUE</button>
+          <div className="col-8 text-center">
+            <button
+              className="btn btn-contiune"
+              onClick={() => history.push("./components/DatosAcceso")}
+            >
+              CONTINUE
+            </button>
           </div>
         </div>
       </form>
     </>
   );
 };
+export default DatosPersonales;

@@ -1,29 +1,29 @@
-export const Login = () => {
+const Login = () => {
   return (
     <>
       <form className="col-7">
-        <h2 className="text-center my-5">Log In</h2>
+        <h2 className="text-center py-3">Log In</h2>
         <div className="row justify-content-center">
           <div className="col-8">
-            <label htmlFor="name">Username</label>
+            <label htmlFor="usernamelog">Username</label>
             <input
               type="text"
               className="nombre form-control"
-              id="name"
+              id="usernamelog"
               placeholder="Username"
               required
             />
           </div>
           <div className="col-8">
-            <label htmlFor="password">Password</label>
+            <label htmlFor="passwordlog">Password</label>
             <input
               type="password"
               className="nombre form-control"
-              id="password"
+              id="passwordlog"
               placeholder="123456789"
               required
             />
-            <small id="passwordHelpInline" class="text-muted">
+            <small id="passwordHelpInline" className="text-muted">
               Must be 8-20 characters long.
             </small>
           </div>
@@ -32,11 +32,11 @@ export const Login = () => {
             <input
               type="checkbox"
               className="checkbox-password nombre"
-              id="repeat-password"
+              id="repeat-passwordlog"
               placeholder="123456789"
               required
             />
-            <label className="px-2" htmlFor="repeat-password">
+            <label className="px-2" htmlFor="repeat-passwordlog">
               Remember password
             </label>
           </div>
@@ -53,3 +53,5 @@ export const Login = () => {
     </>
   );
 };
+
+export default Login;
